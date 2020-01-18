@@ -13,6 +13,3 @@ To run with HTTPS a reverse proxy will needed. [Caddy v2](https://caddyserver.co
 `http://127.0.0.1:8000/fixer/update?apikey=YOUR_API_KEY`
 
 This API doesn't refresh automatically, so any other task should call the /update endpoint every 24 hours
-
-## Build
-`go build`
